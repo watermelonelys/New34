@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A4C533FB3B3177F12917287 /* HeliumPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA83E2E7A5D5154079094D /* HeliumPadApp.swift */; };
+		78FAA098BD1376E6FE369388 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB799B98D193251BA1ECE6F /* Tab.swift */; };
+		2D275926659C6EFEEE5BE6B8 /* AdBlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17743FB5049C6B893B525143 /* AdBlockManager.swift */; };
+		58B0BB96FC8B849AE5A4EC27 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35221177352D07165A4924EB /* WebView.swift */; };
+		9882F296B1F36229843EAEB1 /* AddressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7921BF1C2850B97127108 /* AddressBarView.swift */; };
+		9812C02430ECB732C2D150B9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7136139391BEF457AE017 /* TabBarView.swift */; };
+		54C598AD11A0F03AA1E0E7F3 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C5661620B09E7C2705BEA /* BrowserView.swift */; };
+		42BA49BD51F9190621CCD6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAC4968232AA788C964A23B /* Assets.xcassets */; };
+		C6A06DE5A52A2E33CFFCBF1F /* blocklist.json in Resources */ = {isa = PBXBuildFile; fileRef = BED40DD66BFF0EE21B4B4997 /* blocklist.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEB8691594F2F2D3D4605DEF /* HeliumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeliumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBA83E2E7A5D5154079094D /* HeliumPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliumPadApp.swift; sourceTree = "<group>"; };
+		EAB799B98D193251BA1ECE6F /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		17743FB5049C6B893B525143 /* AdBlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockManager.swift; sourceTree = "<group>"; };
+		35221177352D07165A4924EB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		90C7921BF1C2850B97127108 /* AddressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBarView.swift; sourceTree = "<group>"; };
+		C2E7136139391BEF457AE017 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B53C5661620B09E7C2705BEA /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		D1165378935D11AE56253E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAC4968232AA788C964A23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED40DD66BFF0EE21B4B4997 /* blocklist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blocklist.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B5D97C10B6F41D987E08BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CB06C9A8E278DB57271D88 = {
+			isa = PBXGroup;
+			children = (
+				32DCD61D0FEEA09F78B50ACF /* HeliumPad */,
+				8E73488BF2BC451D99FEDB89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E73488BF2BC451D99FEDB89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8691594F2F2D3D4605DEF /* HeliumPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DCD61D0FEEA09F78B50ACF /* HeliumPad */ = {
+			isa = PBXGroup;
+			children = (
+				0BBA83E2E7A5D5154079094D /* HeliumPadApp.swift */,
+				C8AA663B92AD0737E09ED965 /* Models */,
+				81F008A9D1741F91E54F875D /* Views */,
+				8105C4491CDBE8F463CB02DA /* AdBlock */,
+				BAAC4968232AA788C964A23B /* Assets.xcassets */,
+				D1165378935D11AE56253E70 /* Info.plist */,
+			);
+			path = HeliumPad;
+			sourceTree = "<group>";
+		};
+		C8AA663B92AD0737E09ED965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAB799B98D193251BA1ECE6F /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81F008A9D1741F91E54F875D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35221177352D07165A4924EB /* WebView.swift */,
+				90C7921BF1C2850B97127108 /* AddressBarView.swift */,
+				C2E7136139391BEF457AE017 /* TabBarView.swift */,
+				B53C5661620B09E7C2705BEA /* BrowserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8105C4491CDBE8F463CB02DA /* AdBlock */ = {
+			isa = PBXGroup;
+			children = (
+				17743FB5049C6B893B525143 /* AdBlockManager.swift */,
+				BED40DD66BFF0EE21B4B4997 /* blocklist.json */,
+			);
+			path = AdBlock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3823E100E27F6BDA8F17705C /* HeliumPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DC3CDCD0092217A1E4A9E6 /* Build configuration list for PBXNativeTarget "HeliumPad" */;
+			buildPhases = (
+				BBBC103AE670F631825D23C3 /* Sources */,
+				C1B5D97C10B6F41D987E08BE /* Frameworks */,
+				0B2557A7231A8572C8A8F9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeliumPad;
+			productName = HeliumPad;
+			productReference = EEB8691594F2F2D3D4605DEF /* HeliumPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A25EB20A9155245D8C8D7517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3823E100E27F6BDA8F17705C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 127F8066EF599F8FC9F82B35 /* Build configuration list for PBXProject "HeliumPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CB06C9A8E278DB57271D88;
+			productRefGroup = 8E73488BF2BC451D99FEDB89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3823E100E27F6BDA8F17705C /* HeliumPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2557A7231A8572C8A8F9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA49BD51F9190621CCD6E9 /* Assets.xcassets in Resources */,
+				C6A06DE5A52A2E33CFFCBF1F /* blocklist.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBC103AE670F631825D23C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4C533FB3B3177F12917287 /* HeliumPadApp.swift in Sources */,
+				78FAA098BD1376E6FE369388 /* Tab.swift in Sources */,
+				2D275926659C6EFEEE5BE6B8 /* AdBlockManager.swift in Sources */,
+				58B0BB96FC8B849AE5A4EC27 /* WebView.swift in Sources */,
+				9882F296B1F36229843EAEB1 /* AddressBarView.swift in Sources */,
+				9812C02430ECB732C2D150B9 /* TabBarView.swift in Sources */,
+				54C598AD11A0F03AA1E0E7F3 /* BrowserView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47336DF0EC20719D725EFA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2550778A9667C90A9E16D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB14B16878767919BE353BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HeliumPad/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = computer.helium.ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEE1CEF472A024E8D005D908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HeliumPad/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = computer.helium.ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127F8066EF599F8FC9F82B35 /* Build configuration list for PBXProject "HeliumPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47336DF0EC20719D725EFA9B /* Debug */,
+				C2550778A9667C90A9E16D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DC3CDCD0092217A1E4A9E6 /* Build configuration list for PBXNativeTarget "HeliumPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB14B16878767919BE353BED /* Debug */,
+				AEE1CEF472A024E8D005D908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A25EB20A9155245D8C8D7517 /* Project object */;
+}
